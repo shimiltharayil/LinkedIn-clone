@@ -7,7 +7,7 @@ import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import InputOption from './InputOption';
 import Post from './Post';
 import { db } from '../../firebase';
-import firebase from 'firebase';
+import firebase from 'firebase/compat/app';
 
 
 function Feed() {
